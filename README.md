@@ -51,3 +51,8 @@ There are three parameters for the `gx_url` template tag:
 | `target`    | The url which Galaxy will use to fetch the dataset with just a GET or POST request                    |
 | `name`      | Filename, used in Galaxy dataset                                                                      |
 | `type`      | Galaxy filetype. This frees you from having to do parameter translation in Galaxy, unless you want to |
+
+
+# License
+
+GPLv3
