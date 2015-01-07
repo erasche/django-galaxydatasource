@@ -1,0 +1,16 @@
+<html>
+    <body>
+{{ r }}
+<hr/>
+{{ session_key }}
+<hr/>
+
+{% load galaxy_datasource %}
+{% url 'galaxy_datasource:data' as data %}
+
+<a href="{{ data }}">Data (Raw)</a>
+<a href="{% gx_url target=data name="Exported Data" type="tabular" %}">Data (Galaxy)</a>
+    </body>
+</html>
+
+
